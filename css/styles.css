@@ -113,12 +113,12 @@ header .container img {
   margin-top: 50px;
 }
 
-.download-wrapper a {
+.download-wrapper a img {
   display: block;
-  width: 174px;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 10px;
 }
 
 /* MAIN | bike */
@@ -171,11 +171,12 @@ main .container .col-xs-12 img {
 
   .download-wrapper a {
     position: relative;
-    width: 174px;
     margin: 0px auto;
   }
 
   .download-wrapper a img {
+    position: static;
+    transform: none;
     display: inline-block;
     margin: 0 5px;
   }
