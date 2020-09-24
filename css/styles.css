@@ -3,6 +3,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background: white;
+  font-size: 16px;
 }
 
 .container {
@@ -59,6 +60,10 @@ p.black {
 
 p.blue {
   color: #6268fd;
+}
+
+p.small {
+  font-size: 12px;
 }
 
 h1 {
@@ -152,6 +157,14 @@ main section.how-work {
 
 main section.container .text {
   margin-top: 450px;
+  padding: 0 50px;
+  line-height: 1.6;
+}
+
+main section.container .phone img {
+  height: 400px;
+  padding: 0;
+  margin-top: 225px;
 }
 
 /*! TABLET VERSION */
