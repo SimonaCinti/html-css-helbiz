@@ -7,6 +7,7 @@ body {
 
 .container {
   margin-bottom: 0; /*debug margin removed */
+  width: 100%;
 }
 
 .container-small {
@@ -137,6 +138,20 @@ main .container .col-xs-12 a {
 main .container .col-xs-12 img {
   padding-top: 40px;
   height: 500px;
+}
+
+/* MAIN | How works */
+
+main section.how-work {
+  height: 400px;
+  background-image: url(../img/helbiz-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+}
+
+main section.container .text {
+  margin-top: 450px;
 }
 
 /*! TABLET VERSION */
