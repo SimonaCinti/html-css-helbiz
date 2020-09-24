@@ -44,6 +44,14 @@ header .container img {
   width: 150px;
 }
 
+/*  HEADER | Jumbotron */
+
+.jumbotron {
+  background-image: url("../img/hero-bg.jpg");
+  height: 400px;
+  background-size: cover;
+}
+
 /* TABLET VERSION */
 @media screen and (min-width: 768px) {
   /* GENERIC STYLE */
