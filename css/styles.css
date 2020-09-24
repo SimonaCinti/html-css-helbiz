@@ -1,3 +1,39 @@
+/* GENERIC STYLE */
+
 body {
   font-family: "Open Sans", sans-serif;
+  background: white;
 }
+
+.container {
+  margin-bottom: 0; /*debug margin removed */
+}
+
+/* UTILITIES */
+
+.only-tablet,
+.only-desktop {
+  display: none;
+}
+
+/* HEADER */
+
+header .container {
+  padding: 20px 0;
+}
+
+header .container img {
+  display: block;
+  margin: auto;
+}
+
+/* TABLET VERSION */
+
+@media screen and (min-width: 768px) {
+  /* HEADER */
+  .only-tablet {
+    display: block;
+  }
+}
+
+/* DESKTOP VERSION */
