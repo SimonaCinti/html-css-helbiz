@@ -235,11 +235,10 @@ main section.how-work .left h3 {
   main section.container .phone img {
     max-height: 400px;
     max-width: 100%;
-    padding: 0;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
     margin-top: 200px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
   }
 }
 
