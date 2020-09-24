@@ -16,6 +16,12 @@ body {
   display: none;
 }
 
+/* LIST STYLE */
+
+li {
+  display: inline-block;
+}
+
 /* HEADER */
 
 header .container {
@@ -25,14 +31,25 @@ header .container {
 header .container img {
   display: block;
   margin: auto;
+  width: 150px;
 }
 
 /* TABLET VERSION */
 
 @media screen and (min-width: 768px) {
-  /* HEADER */
+  /* GENERIC STYLE */
   .only-tablet {
     display: block;
+  }
+
+  /* HEADER */
+  header .container img {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
   }
 }
 
