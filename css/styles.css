@@ -32,6 +32,18 @@ li a:hover {
   text-decoration: underline;
 }
 
+/* Typografy */
+
+h1,
+h2,
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 32px;
+}
+
 /* HEADER */
 
 header .container {
@@ -42,6 +54,7 @@ header .container img {
   display: block;
   margin: auto;
   width: 150px;
+  padding-top: 25px;
 }
 
 /*  HEADER | Jumbotron */
@@ -50,6 +63,31 @@ header .container img {
   background-image: url("../img/hero-bg.jpg");
   height: 400px;
   background-size: cover;
+  position: relative;
+}
+
+.jumbotron .main-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.jumbotron h1,
+.jumbotron p {
+  text-align: center;
+  line-height: 2;
+}
+
+.jumbotron .app-store {
+  margin-top: 50px;
+  position: relative;
+}
+
+.jumbotron .app-store img {
+  display: block;
+  margin: 20px auto 0;
 }
 
 /* TABLET VERSION */
@@ -59,8 +97,8 @@ header .container img {
     display: block;
   }
   /* HEADER */
+
   nav.nav-right {
-    margin-top: 20px;
     padding: 20px;
     text-align: center;
   }
@@ -91,6 +129,7 @@ header .container img {
   }
   nav.nav-right {
     padding: 0;
+    margin-top: 20px;
     text-align: center;
   }
   nav.nav-right li {
