@@ -91,13 +91,15 @@ header .container img {
   text-align: center;
   line-height: 2;
 }
+
 /*  HEADER | Jumbotron | Store */
 .jumbotron .app-store {
   margin-top: 50px;
 }
 
-.app-store .col-xs-9 {
-  padding-bottom: 50px;
+.download-wrapper a {
+  display: block;
+  text-align: center;
 }
 
 /*! TABLET VERSION */
@@ -122,6 +124,22 @@ header .container img {
   nav.nav-right li:nth-last-child(2),
   nav.nav-right li:nth-last-child(3) {
     border-right: 1px solid black;
+  }
+
+  /* HEADER | Jumbrotron | Store */
+
+  .download-wrapper {
+    padding: 0px 4px;
+  }
+
+  .download-wrapper a {
+    position: relative;
+    margin: 0px auto;
+  }
+
+  .download-wrapper a img {
+    display: inline-block;
+    margin: 0 5px;
   }
 }
 
