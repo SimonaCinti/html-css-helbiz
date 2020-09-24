@@ -100,9 +100,8 @@ header .container img {
   padding-bottom: 50px;
 }
 
-/* HEADER | jumbotron | store */
+/*! TABLET VERSION */
 
-/* TABLET VERSION */
 @media screen and (min-width: 768px) {
   /* GENERIC STYLE */
   .only-tablet {
@@ -126,7 +125,7 @@ header .container img {
   }
 }
 
-/* DESKTOP VERSION */
+/*! DESKTOP VERSION */
 
 @media screen and (min-width: 992px) {
   /* GENERIC STYLE */
