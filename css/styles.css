@@ -180,6 +180,12 @@ main .container .col-xs-12 img {
     display: inline-block;
     margin: 0 5px;
   }
+  /* MAIN | bike */
+
+  main .container .col-md-6.left img,
+  main .container .col-md-6.right img {
+    height: 300px;
+  }
 }
 
 /*! DESKTOP VERSION */
