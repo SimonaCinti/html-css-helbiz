@@ -149,22 +149,39 @@ main .container .col-xs-12 img {
 
 main section.how-work {
   height: 400px;
+  margin-bottom: 200px;
   background-image: url(../img/helbiz-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
 }
 
-main section.container .text {
+main section.how-work .left,
+main section.how-work .right {
   margin-top: 450px;
-  padding: 0 50px;
   line-height: 1.6;
+}
+
+main section.how-work .left {
+  text-align: right;
+}
+
+main section.how-work .left h3 {
+  display: inline-block;
+  text-align: left;
+}
+
+main section.container .phone {
+  position: relative;
 }
 
 main section.container .phone img {
   height: 400px;
   padding: 0;
-  margin-top: 225px;
+  margin-top: 200px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*! TABLET VERSION */
