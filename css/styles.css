@@ -61,7 +61,7 @@ header .container img {
 
 .jumbotron {
   background-image: url("../img/hero-bg.jpg");
-  height: 400px;
+  height: 500px;
   background-size: cover;
   position: relative;
 }
@@ -82,12 +82,11 @@ header .container img {
 
 .jumbotron .app-store {
   margin-top: 50px;
-  position: relative;
 }
 
 .jumbotron .app-store img {
   display: block;
-  margin: 20px auto 0;
+  margin: 50px auto 50px;
 }
 
 /* TABLET VERSION */
@@ -142,4 +141,6 @@ header .container img {
   nav.nav-right li:nth-last-child(3) {
     border-right: 1px solid black;
   }
+
+  /* HEADER | jumbotron */
 }
