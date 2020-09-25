@@ -249,6 +249,20 @@ main section.how-work .left h3 {
     display: block;
   }
 
+  /* Typography */
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
   /* HEADER */
   header .container img {
     width: 100px;
@@ -268,5 +282,20 @@ main section.how-work .left h3 {
   nav.nav-right li:nth-last-child(2),
   nav.nav-right li:nth-last-child(3) {
     border-right: 1px solid black;
+  }
+
+  /* HEADER | Jumbrotron | Store */
+
+  .download-wrapper a:first-child {
+    /* position: relative; */
+    /* margin: 0px auto; */
+    /* right: 50%;
+    transform: translateX(50%); */
+    margin-left: 16%;
+  }
+
+  .download-wrapper a img {
+    /* right: 50%;
+    transform: translateX(-50%); */
   }
 }
