@@ -262,9 +262,13 @@ main .container.smart {
 
   /* MAIN | Other Services */
 
+  main .container.smart {
+    background-position: center;
+  }
   .container.smart > .col-xs-12 {
     background: none;
-    line-height: 1.5;
+    line-height: 1.6;
+    padding: 0 100px;
   }
 }
 
