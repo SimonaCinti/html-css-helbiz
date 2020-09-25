@@ -115,6 +115,7 @@ header .container img {
 }
 
 /*  HEADER | Jumbotron | Store */
+
 .jumbotron .app-store {
   margin-top: 50px;
 }
@@ -179,6 +180,23 @@ main section.how-work .left h3 {
   text-align: left;
 }
 
+/* MAIN | Other Services */
+
+main .container.smart {
+  background-image: url("../img/scooter-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+}
+
+.container.smart > .col-xs-12 {
+  background-color: #00000081;
+}
+
+.container.smart > .col-xs-12 a {
+  color: white;
+}
+
 /*! TABLET VERSION */
 
 @media screen and (min-width: 768px) {
@@ -239,6 +257,12 @@ main section.how-work .left h3 {
     margin: 0 auto;
     margin-top: 200px;
   }
+
+  /* MAIN | Other Services */
+
+  .container.smart > .col-xs-12 {
+    background: none;
+  }
 }
 
 /*! DESKTOP VERSION */
@@ -287,15 +311,6 @@ main section.how-work .left h3 {
   /* HEADER | Jumbrotron | Store */
 
   .download-wrapper a:first-child {
-    /* position: relative; */
-    /* margin: 0px auto; */
-    /* right: 50%;
-    transform: translateX(50%); */
     margin-left: 16%;
-  }
-
-  .download-wrapper a img {
-    /* right: 50%;
-    transform: translateX(-50%); */
   }
 }
