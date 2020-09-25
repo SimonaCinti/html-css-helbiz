@@ -185,12 +185,14 @@ main section.how-work .left h3 {
 main .container.smart {
   background-image: url("../img/scooter-bg.jpg");
   background-repeat: no-repeat;
+  background-position: left;
   background-size: cover;
-  background-position: left center;
+  height: 500px;
 }
 
 .container.smart > .col-xs-12 {
   background-color: #00000081;
+  margin-top: 250px;
 }
 
 .container.smart > .col-xs-12 a {
@@ -262,6 +264,7 @@ main .container.smart {
 
   .container.smart > .col-xs-12 {
     background: none;
+    line-height: 1.5;
   }
 }
 
