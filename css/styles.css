@@ -124,9 +124,6 @@ header .container img {
   text-align: center;
 }
 
-.download-wrapper a img {
-}
-
 /* MAIN | bike */
 
 main .container .col-xs-12 {
@@ -306,11 +303,5 @@ main .container.smart {
   nav.nav-right li:nth-last-child(2),
   nav.nav-right li:nth-last-child(3) {
     border-right: 1px solid black;
-  }
-
-  /* HEADER | Jumbrotron | Store */
-
-  .download-wrapper a:first-child {
-    margin-left: 16%;
   }
 }
