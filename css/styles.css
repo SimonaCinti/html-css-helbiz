@@ -8,7 +8,6 @@ body {
 
 .container {
   margin-bottom: 0; /*debug margin removed */
-  width: 100%;
 }
 
 .container-small {
@@ -178,7 +177,7 @@ main section.how-work .left h3 {
 
 /* MAIN | Other Services */
 
-main .container-small.smart {
+main .container.smart {
   background-image: url("../img/scooter-bg.jpg");
   background-repeat: no-repeat;
   background-position: left;
@@ -186,14 +185,14 @@ main .container-small.smart {
   height: 400px;
 }
 
-.container-small.smart > .col-xs-12 {
+.container.smart > .col-xs-12 {
   background-color: #00000081;
   text-align: center;
   margin-top: 140px;
   line-height: 1.8;
 }
 
-.container-small.smart > .col-xs-12 a {
+.container.smart > .col-xs-12 a {
   color: white;
 }
 
@@ -254,10 +253,10 @@ main .container-small.smart {
 
   /* MAIN | Other Services */
 
-  main .containe-small.smart {
+  main .containe.smart {
     background-position: left right;
   }
-  .container-small.smart > .col-md-6 {
+  .container.smart > .col-md-6 {
     text-align: center;
     line-height: 1.6;
     margin-top: 200px 0;
@@ -314,7 +313,7 @@ main .container-small.smart {
     position: relative;
   }
 
-  main .container-small.smart .col-lg-6 .mobility-text {
+  main .container.smart .col-lg-6 .mobility-text {
     position: absolute;
     top: 50%;
     padding: 0 100px;
