@@ -13,8 +13,8 @@ body {
 
 .container-small {
   width: 80%;
-  max-width: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 
 .container-small::after {
@@ -178,20 +178,22 @@ main section.how-work .left h3 {
 
 /* MAIN | Other Services */
 
-main .container.smart {
+main .container-small.smart {
   background-image: url("../img/scooter-bg.jpg");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
-  height: 500px;
+  height: 400px;
 }
 
-.container.smart > .col-xs-12 {
+.container-small.smart > .col-xs-12 {
   background-color: #00000081;
-  margin-top: 250px;
+  text-align: center;
+  margin-top: 140px;
+  line-height: 1.8;
 }
 
-.container.smart > .col-xs-12 a {
+.container-small.smart > .col-xs-12 a {
   color: white;
 }
 
@@ -252,12 +254,13 @@ main .container.smart {
 
   /* MAIN | Other Services */
 
-  main .container.smart {
-    background-position: center;
+  main .containe-small.smart {
+    background-position: left right;
   }
-  .container.smart > .col-xs-12 {
-    background: none;
+  .container-small.smart > .col-md-6 {
+    text-align: center;
     line-height: 1.6;
+    margin-top: 200px 0;
     padding: 0 100px;
   }
 }
@@ -303,5 +306,17 @@ main .container.smart {
   nav.nav-right li:nth-last-child(2),
   nav.nav-right li:nth-last-child(3) {
     border-right: 1px solid black;
+  }
+  /* MAIN | Other Services */
+  main .smart .col-lg-6 {
+    margin-top: 0;
+    background: none;
+    position: relative;
+  }
+
+  main .container-small.smart .col-lg-6 .mobility-text {
+    position: absolute;
+    top: 50%;
+    padding: 0 100px;
   }
 }
