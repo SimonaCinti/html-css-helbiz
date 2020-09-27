@@ -136,7 +136,7 @@ main .container .col-xs-12 a {
   color: #6268fd;
 }
 
-main .container .col-xs-12 img {
+main .container .bike img {
   padding-top: 40px;
   height: 500px;
 }
@@ -206,8 +206,9 @@ main .container.smart {
 /* MAIN | Get App */
 
 main .container .getapp {
-  height: 400px;
+  height: calc(300px + 156px);
   background: linear-gradient(#41566a, #252f38) 50% no-repeat;
+  position: relative;
 }
 
 main .container .getapp .getapp-text {
@@ -217,6 +218,15 @@ main .container .getapp .getapp-text {
 main .container .getapp .getapp-text a {
   text-decoration: none;
   color: white;
+}
+
+main .container .getapp .getapp-text img {
+  display: block;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translatex(-50%);
 }
 
 /*! TABLET VERSION */
