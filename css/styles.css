@@ -243,6 +243,7 @@ main .container .find-us {
 
 footer {
   background: black;
+  max-height: 100%;
 }
 
 footer .container {
@@ -286,12 +287,12 @@ footer .container.social a {
   display: inline-block;
   text-decoration: none;
   color: white;
-  margin-top: 15px;
+  margin: 15px 0 0;
   padding: 0 10px;
 }
 
 footer .container.social p.credits {
-  margin-top: 15px;
+  margin: 15px 0;
   padding: 0 10px;
 }
 
