@@ -265,10 +265,12 @@ footer .container .footer-list .list-footer-horizontal li {
   display: inline-block;
 }
 
-footer .container .footer-list ul h4 {
+footer .container .footer-list ul p {
   text-transform: uppercase;
   color: white;
   margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 footer .container .footer-list ul li {
