@@ -241,6 +241,10 @@ main .container .find-us {
 
 /*  FOOTER */
 
+footer {
+  background: black;
+}
+
 footer .container {
   background: black;
   /* height: 500px; */
@@ -354,7 +358,16 @@ footer .container .footer-list ul li a {
   .getapp {
     margin-right: 4%;
   }
+
   /* FOOTER LINKS*/
+
+  footer .container .footer-list .list-footer-horizontal li {
+    display: block;
+  }
+
+  footer .container .footer-list {
+    padding: 30px 0 50px;
+  }
 }
 
 /*! DESKTOP VERSION */
@@ -426,6 +439,7 @@ footer .container .footer-list ul li a {
 
   main .family {
     background-image: url("../img/social-banner.jpg");
+    width: 100%;
     background-size: cover;
     height: 300px;
     text-align: center;
