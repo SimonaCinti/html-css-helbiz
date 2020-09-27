@@ -6,9 +6,9 @@ body {
   font-size: 16px;
 }
 
-.container {
-  margin-bottom: 0; /*debug margin removed */
-}
+/* .container {
+  margin-bottom: 0; 
+} */
 
 .container-small {
   width: 80%;
@@ -53,7 +53,7 @@ p.white {
   color: white;
 }
 
-p.black {
+.black {
   color: black;
 }
 
@@ -239,6 +239,8 @@ main .container .find-us {
   background-size: cover;
 }
 
+/* MAIN | helbiz-family */
+
 /*! TABLET VERSION */
 
 @media screen and (min-width: 768px) {
@@ -382,5 +384,37 @@ main .container .find-us {
 
   .getapp {
     margin-right: 4%;
+  }
+
+  /* MAIN | Helbiz-family */
+
+  main .family {
+    background-image: url("../img/social-banner.jpg");
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    position: relative;
+  }
+
+  .helbiz-family {
+    color: black;
+    background: white;
+    padding: 50px 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .helbiz-family h3 {
+    font-size: 26px;
+  }
+
+  .helbiz-family a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    padding: 0 10px;
   }
 }
