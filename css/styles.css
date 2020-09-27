@@ -203,6 +203,22 @@ main .container.smart {
   color: white;
 }
 
+/* MAIN | Get App */
+
+main .container .getapp {
+  height: 400px;
+  background: linear-gradient(#41566a, #252f38) 50% no-repeat;
+}
+
+main .container .getapp .getapp-text {
+  margin-top: 20px;
+}
+
+main .container .getapp .getapp-text a {
+  text-decoration: none;
+  color: white;
+}
+
 /*! TABLET VERSION */
 
 @media screen and (min-width: 768px) {
