@@ -224,8 +224,7 @@ main .container .find-us .find-us-text a {
 
 main .container .getapp .getapp-text img {
   display: block;
-  height: 50%;
-  max-height: 50%;
+  height: 300px;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -265,7 +264,7 @@ main .container .find-us {
     border-right: 1px solid black;
   }
 
-  /* HEADER | Jumbrotron | Store */
+  /* HEADER | Jumbotron | Store */
 
   .download-wrapper {
     padding: 0px 4px;
