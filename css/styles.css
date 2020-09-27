@@ -367,13 +367,10 @@ footer .container.social a span.credits {
 
   /* MAIN | Other Services */
 
-  main .containe.smart {
-    background-position: left right;
-  }
   .container.smart > .col-md-6 {
     text-align: center;
     line-height: 1.6;
-    margin-top: 200px 0;
+    margin-top: 200px;
     padding: 0 100px;
   }
 
