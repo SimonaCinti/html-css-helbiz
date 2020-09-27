@@ -246,9 +246,9 @@ footer {
   max-height: 100%;
 }
 
-footer .container {
+footer .container.links {
   background: black;
-  /* height: 500px; */
+  margin-bottom: 0px;
 }
 
 /* FOOTER | LINKS */
@@ -285,6 +285,8 @@ footer .container .footer-list ul li a {
 
 footer .container.social {
   margin-bottom: 0;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #808080;
 }
 
 footer .container.social .social-column {
