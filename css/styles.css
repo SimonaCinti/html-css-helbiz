@@ -189,7 +189,14 @@ main .container.smart {
   background-color: #00000081;
   text-align: center;
   margin-top: 140px;
-  line-height: 1.8;
+}
+
+.container.smart .col-xs-12 .mobility-text {
+  line-height: 1.6;
+}
+
+.container.smart .col-xs-12 p {
+  padding-bottom: 20px;
 }
 
 .container.smart > .col-xs-12 a {
