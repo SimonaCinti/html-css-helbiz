@@ -261,11 +261,7 @@ footer .container .footer-list ul {
   margin: 20px 0;
 }
 
-footer .container .footer-list .list-footer-horizontal li {
-  display: inline-block;
-}
-
-footer .container .footer-list ul p {
+footer .container .footer-list ul:first-child {
   text-transform: uppercase;
   color: white;
   margin-bottom: 20px;
