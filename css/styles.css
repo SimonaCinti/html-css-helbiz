@@ -211,11 +211,22 @@ main .container .getapp {
   position: relative;
 }
 
-main .container .getapp .getapp-text {
+.col-lg-6-custom {
+  width: 48%;
+  padding: 0;
+}
+
+.getapp {
+  margin-right: 4%;
+}
+
+main .container .getapp .getapp-text,
+main .container .find-us .find-us-text {
   margin-top: 20px;
 }
 
-main .container .getapp .getapp-text a {
+main .container .getapp .getapp-text a,
+main .container .find-us .find-us-text a {
   text-decoration: none;
   color: white;
 }
@@ -233,16 +244,8 @@ main .container .getapp .getapp-text img {
 
 main .container .find-us {
   height: calc(300px + 156px);
-  background: rgba(211, 60, 60, 0.75);
-}
-
-.col-lg-6-custom {
-  width: 48%;
-  padding: 0;
-}
-
-.getapp {
-  margin-right: 4%;
+  background: url("../img/cities.jpg");
+  background-size: cover;
 }
 
 /*! TABLET VERSION */
