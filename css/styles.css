@@ -229,6 +229,22 @@ main .container .getapp .getapp-text img {
   transform: translatex(-50%);
 }
 
+/*  MAIN | Find us */
+
+main .container .find-us {
+  height: calc(300px + 156px);
+  background: rgba(211, 60, 60, 0.75);
+}
+
+.col-lg-6-custom {
+  width: 48%;
+  padding: 0;
+}
+
+.getapp {
+  margin-right: 4%;
+}
+
 /*! TABLET VERSION */
 
 @media screen and (min-width: 768px) {
