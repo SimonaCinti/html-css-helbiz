@@ -283,6 +283,15 @@ footer .container .footer-list ul li a {
 
 /* FOOTER | social and credits */
 
+footer .container.social {
+  margin-bottom: 0;
+}
+
+footer .container.social .social-column {
+  text-align: center;
+  padding: 10px;
+}
+
 footer .container.social a {
   display: inline-block;
   text-decoration: none;
