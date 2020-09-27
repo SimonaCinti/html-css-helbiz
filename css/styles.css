@@ -239,7 +239,12 @@ main .container .find-us {
   background-size: cover;
 }
 
-/* MAIN | helbiz-family */
+/*  FOOTER */
+
+footer .container {
+  background: black;
+  height: 500px;
+}
 
 /*! TABLET VERSION */
 
