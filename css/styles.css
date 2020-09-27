@@ -211,15 +211,6 @@ main .container .getapp {
   position: relative;
 }
 
-.col-lg-6-custom {
-  width: 48%;
-  padding: 0;
-}
-
-.getapp {
-  margin-right: 4%;
-}
-
 main .container .getapp .getapp-text,
 main .container .find-us .find-us-text {
   margin-top: 20px;
@@ -233,7 +224,8 @@ main .container .find-us .find-us-text a {
 
 main .container .getapp .getapp-text img {
   display: block;
-  height: 300px;
+  height: 50%;
+  max-height: 50%;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -255,6 +247,7 @@ main .container .find-us {
   .only-tablet {
     display: block;
   }
+
   /* HEADER */
 
   nav.nav-right {
@@ -314,6 +307,17 @@ main .container .find-us {
     margin-top: 200px 0;
     padding: 0 100px;
   }
+
+  /* MAIN | Get app */
+
+  .col-md-6-custom {
+    width: 48%;
+    padding: 0;
+  }
+
+  .getapp {
+    margin-right: 4%;
+  }
 }
 
 /*! DESKTOP VERSION */
@@ -369,5 +373,15 @@ main .container .find-us {
     position: absolute;
     top: 50%;
     padding: 0 100px;
+  }
+
+  /* MAIN | Get app */
+  .col-lg-6-custom {
+    width: 48%;
+    padding: 0;
+  }
+
+  .getapp {
+    margin-right: 4%;
   }
 }
