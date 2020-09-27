@@ -280,6 +280,26 @@ footer .container .footer-list ul li a {
   text-transform: none;
 }
 
+/* FOOTER | social and credits */
+
+footer .container.social a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
+  padding: 0 10px;
+}
+
+footer .container.social p.credits {
+  margin-top: 15px;
+  padding: 0 10px;
+}
+
+footer .container.social .credits,
+footer .container.social a span.credits {
+  font-size: 14px;
+}
+
 /*! TABLET VERSION */
 
 @media screen and (min-width: 768px) {
